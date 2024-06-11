@@ -3,7 +3,7 @@
 <body>
 
 <div class="form">            
-          <form action="index.php" method="post" name="coincard_reg" onsubmit="return validate(); return false;">
+          <form action="index.php" method="post" name="coincard_reg" onsubmit="return validate(); return false;"> 
        <div class="form-row">
        <div class="form-group col-lg-6">
                 <input type="text" name="name" class="form-control mb-2" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"placeholder="Name"/>
